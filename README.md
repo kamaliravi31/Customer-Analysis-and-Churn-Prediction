@@ -21,10 +21,13 @@ This project aims to predict and prevent customer churn. By accurately identifyi
 - **Outcome**: A clean and consistent dataset ready for analysis.
 
 ### Exploratory Data Analysis
-- **Task**: Create visualizations to understand data distributions and relationships between variables.
+- **Task**: Create visualizations to understand data distributions and relationships between variables of how tenure and monthly charges affect the churn rate 
 - **Outcome**: Comprehensive visual insights that help in understanding customer behavior and identifying key factors affecting churn.
 
+<img src=https://github.com/kamaliravi31/Customer-Analysis-and-Churn-Prediction/blob/main/images/tenure.png>
 
+
+<img src=https://github.com/kamaliravi31/Customer-Analysis-and-Churn-Prediction/blob/main/images/month_charges.png>
 
 ### One-Hot Encoding
 - **Task**: Convert categorical variables into numeric format and encode them as binary fields.
@@ -42,6 +45,10 @@ This project aims to predict and prevent customer churn. By accurately identifyi
 - **Task**: Develop an artificial neural network using TensorFlow and Keras libraries to classify whether a customer will churn.
 - **Outcome**: A trained ANN model capable of predicting customer churn based on input features.
 
+  <img src=https://github.com/kamaliravi31/Customer-Analysis-and-Churn-Prediction/blob/main/images/ANN_model.png>
+
+  <img src=https://github.com/kamaliravi31/Customer-Analysis-and-Churn-Prediction/blob/main/images/model_evaluation.png>
+
 ### Predict Dependent Variable
 - **Task**: Use the trained model to predict whether a customer will churn.
 - **Outcome**: Predicted churn values for the testing dataset.
@@ -50,9 +57,15 @@ This project aims to predict and prevent customer churn. By accurately identifyi
 - **Task**: Assess the performance of the classification model using classification reports and accuracy scores.
 - **Outcome**: Detailed evaluation metrics that provide insights into the model's accuracy, precision, recall, and F1-score.
 
+<img src=https://github.com/kamaliravi31/Customer-Analysis-and-Churn-Prediction/blob/main/images/classification_report.png>
+
+
+
 ### Confusion Matrix
 - **Task**: Visualize the confusion matrix using a heat map to understand the model's performance in terms of true positives, false positives, true negatives, and false negatives.
 - **Outcome**: A heat map that visually represents the model's accuracy, with an achieved accuracy of 78%.
+
+<img src=https://github.com/kamaliravi31/Customer-Analysis-and-Churn-Prediction/blob/main/images/confusion_matrix.png%20.png>
 
 ## Conclusion
 This project successfully developed a customer churn prediction model using artificial neural networks. The model achieved an accuracy of 78%, providing a solid foundation for further improvements. The insights gained from the exploratory data analysis and the recommendations based on model predictions can help the company take proactive measures to enhance customer retention and service quality.
